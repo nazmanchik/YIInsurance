@@ -88,13 +88,14 @@ h2:after {
 
 .long-copy {
     line-height: 145%;
-    width: 70%;
-    margin-left: 15%;
+    width: 90%;
+    margin-left: 6%;
 }
 
 .box p {
     font-size: 90%;
     line-height: 145%;
+    padding-top: 2%;
 }
 
 /* ----- Icons----- */
@@ -177,6 +178,8 @@ header {
     margin-left: 20px;
 }
 
+/* Main Navigation */
+
 .main-nav {
     float: right;
     list-style: none;
@@ -205,15 +208,51 @@ header {
     border-bottom: 2px solid #e67e22;
 }
 
+/* Mobile Navigation */
+
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer; 
+}
+
+.mobile-nav-icon i {
+    font-size: 200%;
+    color: #fff;
+}
+/*  Sticky Navigation */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 2px 2px #efefef;
+    z-index: 9999;
+}
+
+.sticky .main-nav { margin-top: 18px; }
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    padding: 16px 0;
+    color: rgb(73, 72, 72);
+} 
+
+.sticky .logo {
+    display: block;
+}
+
 /* ----------------------------------------------*/
-/* SHOWCASE  */
+/* XOP-Section  */
 /* ----------------------------------------------*/
 
 .project {
     display: block;
     width: 100%;
+    height: auto;
     text-decoration: none;
-    margin: 1em auto;
     cursor: pointer;
 }
 
@@ -226,7 +265,7 @@ figure{
     width: 100%;
     display: block;
     object-fit: cover;
-    height: 300px;
+    height: 320px;
 }
 
 .project figcaption {
@@ -235,7 +274,7 @@ figure{
     color: #fff;
     background: #e67e22;
     padding: 1em;
-    margin-bottom: 15px;
+    margin-bottom: 8px;
 }
 
 .xop-wrapper {
@@ -246,7 +285,6 @@ figure{
 .xop-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 1em;
 }
 
 .project {
@@ -306,8 +344,7 @@ figure{
 
 .map-image {
     width: 100%;
-    margin-top: 16%;
-    
+    margin-top: 16%;   
 }
 
 .howToGetHere {
@@ -347,34 +384,26 @@ figure{
 }
 
 /* ----------------------------------------------*/
-/* Customer Testimonials  */
+/* Contact Us  */
 /* ----------------------------------------------*/
 blockquote {
     padding: 2%;
     font-style: italic;
+    font-size: 120%;
     line-height: 145%;
     position: relative;
     margin-top: 40px;
+    text-align: center;
 }
 
-blockquote:before {
-    font-size: 90%;
-    margin-top: 25px;
-    display: inline-block;
-}
 
 cite {
-    font-size: 90%;
     margin-top: 25px;
     display: block;
+    text-align: center;
 }
 
-cite img {
-    height: 45px;
-    border-radius: 50%;
-    margin-right: 10px;
-    vertical-align: middle;
-}
+
 
 /* ----------------------------------------------*/
 /* Form  */
@@ -408,4 +437,24 @@ input[type=checkbox] {
 }
 
 *:focus {outline: none;}
+
+
+/* ----------------------------------------------*/
+/* Animations  */
+/* ----------------------------------------------*/
+
+.js--wp-1,
+.js--wp-2,
+.js--wp-3
+{
+    opacity: 0;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.js--wp-1.animated,
+.js--wp-2.animated,
+.js--wp-3.animated {
+    opacity: 1;
+}
 
