@@ -17,7 +17,10 @@ html {
     text-rendering: optimizeLegibility;
 }
 
-.clearfix {zoom: 1}
+.clearfix {
+    zoom: 1
+}
+
 .clearfix:after {
     content: '.';
     clear: both;
@@ -25,6 +28,7 @@ html {
     height: 0;
     visibility: hidden;
 }
+
 /* ----------------------------------------------*/
 /* REUSABLE COMPONENTS  */
 /* ----------------------------------------------*/
@@ -111,34 +115,38 @@ h2:after {
 /* ----- BUTTONS ----- */
 
 .btn:link,
-.btn:visited {
+.btn:visited,
+input[type=submit] {
     display: inline-block;
     padding: 10px 30px;
     font-weight: 300;
     text-decoration: none;
     border-radius: 200px;
-    color: #fff;
-    transition: background-color .2s, border 0.2s, color 0.2s;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
 .btn-full:link,
-.btn-full:visited {
+.btn-full:visited,
+input[type=submit] {
     background-color: #e67e22;
     border: 1px solid #e67e22;
-    color: #FFF;
+    color: #fff;
+    margin-right: 15px;
 }
 
-.btn-ghost :link,
+.btn-ghost:link,
 .btn-ghost:visited {
     border: 1px solid #e67e22;
     color: #e67e22;
 }
 
 .btn:hover,
-.btn:active {
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
     background-color: #cf6d17;
 }
-
 
 .btn-full:hover,
 .btn-full:active {
@@ -213,13 +221,14 @@ header {
 .mobile-nav-icon {
     float: right;
     margin-top: 30px;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 .mobile-nav-icon i {
     font-size: 200%;
     color: #fff;
 }
+
 /*  Sticky Navigation */
 
 .sticky {
@@ -232,13 +241,15 @@ header {
     z-index: 9999;
 }
 
-.sticky .main-nav { margin-top: 18px; }
+.sticky .main-nav {
+    margin-top: 18px;
+}
 
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
     padding: 16px 0;
     color: rgb(73, 72, 72);
-} 
+}
 
 .sticky .logo {
     display: block;
@@ -256,7 +267,7 @@ header {
     cursor: pointer;
 }
 
-figure{
+figure {
     margin: 0;
     padding: 0;
 }
@@ -307,7 +318,7 @@ figure{
 
 .project figure:hover img {
     transform: translateY(-90px);
-    
+
 }
 
 .project figcaption {
@@ -344,7 +355,7 @@ figure{
 
 .map-image {
     width: 100%;
-    margin-top: 16%;   
+    margin-top: 16%;
 }
 
 .howToGetHere {
@@ -409,7 +420,7 @@ cite {
 /* Form  */
 /* ----------------------------------------------*/
 
-.section-form{
+.section-form {
     background-color: #f4f4f4;
 }
 
@@ -436,7 +447,9 @@ input[type=checkbox] {
     margin: 10px 5px 10px 0;
 }
 
-*:focus {outline: none;}
+*:focus {
+    outline: none;
+}
 
 
 /* ----------------------------------------------*/
@@ -445,8 +458,7 @@ input[type=checkbox] {
 
 .js--wp-1,
 .js--wp-2,
-.js--wp-3
-{
+.js--wp-3 {
     opacity: 0;
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
@@ -457,4 +469,3 @@ input[type=checkbox] {
 .js--wp-3.animated {
     opacity: 1;
 }
-
