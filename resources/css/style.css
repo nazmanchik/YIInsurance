@@ -17,7 +17,10 @@ html {
     text-rendering: optimizeLegibility;
 }
 
-.clearfix {zoom: 1}
+.clearfix {
+    zoom: 1
+}
+
 .clearfix:after {
     content: '.';
     clear: both;
@@ -25,6 +28,7 @@ html {
     height: 0;
     visibility: hidden;
 }
+
 /* ----------------------------------------------*/
 /* REUSABLE COMPONENTS  */
 /* ----------------------------------------------*/
@@ -213,13 +217,14 @@ header {
 .mobile-nav-icon {
     float: right;
     margin-top: 30px;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 .mobile-nav-icon i {
     font-size: 200%;
     color: #fff;
 }
+
 /*  Sticky Navigation */
 
 .sticky {
@@ -232,13 +237,15 @@ header {
     z-index: 9999;
 }
 
-.sticky .main-nav { margin-top: 18px; }
+.sticky .main-nav {
+    margin-top: 18px;
+}
 
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
     padding: 16px 0;
     color: rgb(73, 72, 72);
-} 
+}
 
 .sticky .logo {
     display: block;
@@ -256,7 +263,7 @@ header {
     cursor: pointer;
 }
 
-figure{
+figure {
     margin: 0;
     padding: 0;
 }
@@ -307,7 +314,7 @@ figure{
 
 .project figure:hover img {
     transform: translateY(-90px);
-    
+
 }
 
 .project figcaption {
@@ -344,7 +351,7 @@ figure{
 
 .map-image {
     width: 100%;
-    margin-top: 16%;   
+    margin-top: 16%;
 }
 
 .howToGetHere {
@@ -409,7 +416,7 @@ cite {
 /* Form  */
 /* ----------------------------------------------*/
 
-.section-form{
+.section-form {
     background-color: #f4f4f4;
 }
 
@@ -436,7 +443,9 @@ input[type=checkbox] {
     margin: 10px 5px 10px 0;
 }
 
-*:focus {outline: none;}
+*:focus {
+    outline: none;
+}
 
 
 /* ----------------------------------------------*/
@@ -445,8 +454,7 @@ input[type=checkbox] {
 
 .js--wp-1,
 .js--wp-2,
-.js--wp-3
-{
+.js--wp-3 {
     opacity: 0;
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
@@ -457,4 +465,3 @@ input[type=checkbox] {
 .js--wp-3.animated {
     opacity: 1;
 }
-
