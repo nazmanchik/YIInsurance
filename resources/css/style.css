@@ -122,8 +122,6 @@ h2:after {
     margin-bottom: 10px;
 }
 
-/* ----- BUTTONS ----- */
-
 .btn:link,
 .btn:visited,
 input[type=submit] {
@@ -248,17 +246,14 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    height: 100px;
     background-color: rgba(255, 255, 255, 0.98);
     box-shadow: 0 2px 2px #efefef;
     z-index: 9999;
 }
 
 .sticky .main-nav {
-<<<<<<< HEAD
-    margin-top: 18px;
-=======
-    margin-top: 3%;
->>>>>>> 07b8099bc60cf9d0a9b338dee8376d17ccd7f052
+    margin-top: 0%;
 }
 
 .sticky .main-nav li a:link,
@@ -271,10 +266,7 @@ header {
     display: block;
     width: 55px;
     height: 55px;
-}
-
-.main-nav {
-    padding-top: 2%;
+    margin-top: 36px;
 }
 
 /* ----------------------------------------------*/
@@ -490,8 +482,4 @@ input[type=checkbox] {
 .js--wp-2.animated,
 .js--wp-3.animated {
     opacity: 1;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 07b8099bc60cf9d0a9b338dee8376d17ccd7f052
