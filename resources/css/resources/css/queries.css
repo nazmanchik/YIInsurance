@@ -14,7 +14,7 @@
     }
 
     .logo {
-        height: 120px;
+        height: 60px;
         width: auto;
         float: left;
         margin-top: 5%;
@@ -27,6 +27,8 @@
 
 }
 
+
+
 /* Small tablet to big tablet: from 768px to 1023px */
 @media only screen and (max-width: 1023px) {
     body {
@@ -38,7 +40,7 @@
     }
 
     .main-nav {
-        padding-top: 3%;
+        padding-top: 6%;
     }
 
     .mobile-nav-icon {
@@ -49,11 +51,13 @@
         height: 60px;
         width: auto;
         float: left;
-        margin-top: 4%;
+        margin-top: 6%;
         margin-left: 10%;
         margin-bottom: 2%;
     }
 }
+
+
 
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 767px) {
@@ -68,13 +72,6 @@
         margin: 0 0 4% 0;
     }
     
-    
-    .main-nav { display: none; }
-    .mobile-nav-icon {
-        display: inline-block;
-        margin-right: 8%;
-        margin-top: 14%;
-    }
     
     .main-nav {
         float: left;
@@ -201,12 +198,12 @@
         height: 60px;
         width: auto;
         float: left;
-        margin-top: 12%;
+        margin-top: 14%;
         margin-left: 8%;
     }
 
 .hero-text-box {
     margin-top: 8%;
 }
-    
+
 }
