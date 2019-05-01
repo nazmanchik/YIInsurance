@@ -27,8 +27,6 @@
 
 }
 
-
-
 /* Small tablet to big tablet: from 768px to 1023px */
 @media only screen and (max-width: 1023px) {
     body {
@@ -56,8 +54,6 @@
         margin-bottom: 2%;
     }
 }
-
-
 
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 767px) {
@@ -194,6 +190,8 @@
     .sticky .mobile-nav-icon { margin-top: 14%; }
     .sticky .mobile-nav-icon i { color: #555; }
     
+    
+
     .logo {
         height: 60px;
         width: auto;
@@ -205,5 +203,4 @@
 .hero-text-box {
     margin-top: 8%;
 }
-
 }
