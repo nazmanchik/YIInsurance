@@ -193,6 +193,7 @@
         margin: 2%;
     }
 
+<<<<<<< HEAD
     .sticky .main-nav { margin-top: 10px; }
 
     .sticky .main-nav li a:link,
@@ -215,3 +216,6 @@
 }
 
 }
+=======
+}
+>>>>>>> c5475ded2a0c5f0376c33117174803d2e7dd217e
