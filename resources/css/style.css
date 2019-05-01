@@ -114,6 +114,16 @@ h2:after {
 
 /* ----- BUTTONS ----- */
 
+.icon-big {
+    text-align: center;
+    font-size: 350%;
+    display: block;
+    color: #e67e22;
+    margin-bottom: 10px;
+}
+
+/* ----- BUTTONS ----- */
+
 .btn:link,
 .btn:visited,
 input[type=submit] {
@@ -159,6 +169,7 @@ input[type=submit]:active {
     color: #fff;
 }
 
+
 /* ----------------------------------------------*/
 /* HEADER  */
 /* ----------------------------------------------*/
@@ -179,10 +190,10 @@ header {
 }
 
 .logo {
-    height: 120px;
+    height: 50px;
     width: auto;
     float: left;
-    margin-top: 20px;
+    margin-top: 3.2%;
     margin-left: 20px;
 }
 
@@ -191,7 +202,8 @@ header {
 .main-nav {
     float: right;
     list-style: none;
-    margin-top: 55px;
+    margin-top: 2%;
+    padding-top: 4%;
     padding-right: 20px;
 }
 
@@ -242,7 +254,11 @@ header {
 }
 
 .sticky .main-nav {
+<<<<<<< HEAD
     margin-top: 18px;
+=======
+    margin-top: 3%;
+>>>>>>> 07b8099bc60cf9d0a9b338dee8376d17ccd7f052
 }
 
 .sticky .main-nav li a:link,
@@ -253,6 +269,12 @@ header {
 
 .sticky .logo {
     display: block;
+    width: 55px;
+    height: 55px;
+}
+
+.main-nav {
+    padding-top: 2%;
 }
 
 /* ----------------------------------------------*/
@@ -468,4 +490,8 @@ input[type=checkbox] {
 .js--wp-2.animated,
 .js--wp-3.animated {
     opacity: 1;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 07b8099bc60cf9d0a9b338dee8376d17ccd7f052
